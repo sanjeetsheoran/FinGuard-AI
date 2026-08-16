@@ -1,0 +1,26 @@
+{
+    "experiment": "experiment_1",
+    "description": "Baseline features + transaction amount and relative time features",
+    "threshold": 0.5,
+    "random_state": 42,
+    "n_estimators": 300,
+    "max_depth": 6,
+    "learning_rate": 0.08,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "pr_auc": 0.3725303984971762,
+    "roc_auc": 0.905054011247925,
+    "precision": 0.1656564310930527,
+    "recall": 0.802258064516129,
+    "f1_score": 0.2746093965660023,
+    "confusion_matrix": [
+        [
+            72955,
+            12526
+        ],
+        [
+            613,
+            2487
+        ]
+    ]
+}
