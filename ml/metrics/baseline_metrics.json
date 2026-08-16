@@ -1,0 +1,24 @@
+{
+    "model": "XGBoost Baseline",
+    "random_state": 42,
+    "threshold": 0.5,
+    "n_estimators": 300,
+    "max_depth": 6,
+    "learning_rate": 0.08,
+    "scale_pos_weight": 27.574516129032258,
+    "pr_auc": 0.3642745005017624,
+    "roc_auc": 0.9047694450870236,
+    "precision": 0.1634407191129191,
+    "recall": 0.8035483870967742,
+    "f1_score": 0.27163186303909276,
+    "confusion_matrix": [
+        [
+            72731,
+            12750
+        ],
+        [
+            609,
+            2491
+        ]
+    ]
+}
