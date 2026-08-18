@@ -1,0 +1,23 @@
+{
+    "model": "experiment_3",
+    "evaluation_split": "test",
+    "threshold": 0.8,
+    "test_rows": 88581,
+    "actual_fraud_count": 3099,
+    "predicted_fraud_count": 2933,
+    "pr_auc": 0.5418502368698213,
+    "roc_auc": 0.9234450222963219,
+    "precision": 0.5325605182407092,
+    "recall": 0.5040335592126493,
+    "f1_score": 0.5179045092838196,
+    "confusion_matrix": [
+        [
+            84111,
+            1371
+        ],
+        [
+            1537,
+            1562
+        ]
+    ]
+}

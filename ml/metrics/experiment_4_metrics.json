@@ -1,0 +1,26 @@
+{
+    "experiment": "experiment_4",
+    "n_estimators": 500,
+    "max_depth": 4,
+    "learning_rate": 0.08,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "threshold": 0.5,
+    "pr_auc": 0.44173582329500183,
+    "roc_auc": 0.8934116202393212,
+    "precision": 0.1525657071339174,
+    "recall": 0.7864516129032258,
+    "f1_score": 0.25555555555555554,
+    "confusion_matrix": [
+        [
+            71939,
+            13542
+        ],
+        [
+            662,
+            2438
+        ]
+    ],
+    "train_rows": 413378,
+    "validation_rows": 88581
+}
